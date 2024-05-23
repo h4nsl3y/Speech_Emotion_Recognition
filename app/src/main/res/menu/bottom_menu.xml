@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/pieChart_icon"
+        android:title="Pie"
+        android:icon="@drawable/ic_baseline_pie_chart_24"/>
+
+    <item
+        android:id="@+id/barChart_icon"
+        android:title="Bar"
+        android:icon="@drawable/ic_baseline_bar_chart_24"/>
+    <item
+        android:id="@+id/fab"
+        android:title=""
+        android:enabled="false"/>
+    <item
+        android:id="@+id/database_icon"
+        android:title="Data"
+        android:icon="@drawable/ic_baseline_dataset_24"/>
+    <item
+        android:id="@+id/lineChart_icon"
+        android:title="Line"
+        android:icon="@drawable/ic_baseline_timeline_24"/>
+
+</menu>

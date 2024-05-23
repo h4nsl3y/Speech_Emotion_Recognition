@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:background="@drawable/crdbackground_white">
+
+
+            <TextView
+                android:id="@+id/txt_record_title"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:color="@color/lavender"
+                android:text="Rcd Title"
+                android:textColor="@color/lavender"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/txt_ang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="150dp"
+                android:text="ang : "
+                android:textColor="@color/lavender"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_record_title" />
+
+            <TextView
+                android:id="@+id/txt_cal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:text="cal : "
+                android:textColor="@color/lavender"
+                app:layout_constraintStart_toEndOf="@+id/txt_ang"
+                app:layout_constraintTop_toTopOf="@+id/txt_ang" />
+
+            <TextView
+                android:id="@+id/txt_dis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:text="dis : "
+                android:textColor="@color/lavender"
+                app:layout_constraintStart_toEndOf="@+id/txt_cal"
+                app:layout_constraintTop_toTopOf="@+id/txt_cal" />
+
+            <TextView
+                android:id="@+id/txt_fea"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="fea : "
+                android:textColor="@color/lavender"
+                app:layout_constraintStart_toStartOf="@+id/txt_ang"
+                app:layout_constraintTop_toBottomOf="@+id/txt_ang" />
+
+            <TextView
+                android:id="@+id/txt_hap"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:text="hap : "
+                android:textColor="@color/lavender"
+                app:layout_constraintStart_toEndOf="@+id/txt_fea"
+                app:layout_constraintTop_toTopOf="@+id/txt_fea" />
+
+            <TextView
+                android:id="@+id/txt_sad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:text="sad : "
+                android:textColor="@color/lavender"
+                app:layout_constraintStart_toEndOf="@+id/txt_hap"
+                app:layout_constraintTop_toTopOf="@+id/txt_hap" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
